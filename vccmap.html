@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<style>
+img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+</style>
+<img src="vcc.png"
+usemap="#map">
+
+<map name="map">
+<area href="highseas.jpg" shape="circle" coords="1016,369,50" alt="highseas">
+<area href="venture.html" shape="circle" coords="845,655,50" alt="Venture">
+<area href="traderinourmidst.jpg" shape="circle" coords="1680,540,50" alt="Abiyad">
+<area href="gonefishing.jpg" shape="circle" coords="311,288,50" alt="gonefishing">
+<area href="templefound.jpg" shape="circle" coords="877,502,50" alt="templefound">
+<area href="hr.jpg" shape="circle" coords="542,868,50" alt="A Hags Request">
+<area href="sandygrave.jpg" shape="circle" coords="1572,1336,50" alt="A Sandy GRave">
+</map>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="jquery.rwdImageMaps.min.js"></script>
+<script>
+
+$(document).ready(function(e) {
+	$('img[usemap]').rwdImageMaps();
+	
+});
+
+</script>
+</body>
+</html>
